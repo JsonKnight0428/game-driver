@@ -21,7 +21,7 @@ DESCRIPTION
 ERRORS
 	An error will result if the first argument is not an object and not a
 	string, or if the first argument is a string, but the specified object
-	is unloaded and cannot be compiled.
+	is uncompiled.
 	Calling a function that does not exist, or a function that cannot be
 	called with call_other() because it is private or static, does not
 	result in an error but returns the value 0.
